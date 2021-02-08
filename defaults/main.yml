@@ -169,6 +169,7 @@ airflow_webserver_page_size: 100
 airflow_webserver_rbac: "False"
 airflow_webserver_navbar_color: "#007A87"
 airflow_webserver_default_dag_run_display_number: 25
+airflow_webserver_enable_proxy_fix: "False"
 
 ## Webserver Authentication
 # (http://pythonhosted.org/airflow/security.html#web-authentication)
