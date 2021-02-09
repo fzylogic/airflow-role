@@ -73,7 +73,7 @@ airflow_log_filename_template: >
  "{{ '{{' }} ti.dag_id {{ '}}' }}/{{ '{{' }} ti.task_id {{ '}}' }}/{{ '{{' }} ts {{ '}}' }}/{{ '{{' }} try_number {{ '}}' }}.log"
 airflow_log_processor_filename_template: "{{ '{{' }} filename {{ '}}' }}.log"
 
-airflow_hostname_callable: "socket:getfqdn"
+airflow_hostname_callable: "socket.getfqdn"
 
 airflow_default_timezone: "utc"
 
@@ -167,7 +167,7 @@ airflow_webserver_log_fetch_timeout_sec: 5
 airflow_webserver_hide_paused_dags_by_default: false
 airflow_webserver_page_size: 100
 airflow_webserver_rbac: "False"
-airflow_webserver_navbar_color: "#007A87"
+airflow_webserver_navbar_color: "#fff"
 airflow_webserver_default_dag_run_display_number: 25
 airflow_webserver_enable_proxy_fix: "False"
 
